@@ -26,5 +26,6 @@ name = ["Broom"];
 }
 
 function prependKitten(name) {
-  return 
+  name = ["Arnold"];
+  return name.concat(kittens);
 }
